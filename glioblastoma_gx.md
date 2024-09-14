@@ -5,7 +5,8 @@
 Github link: [https://github.com/nerdBarby/Hackbio-cancer-internship/blob/8a10f564fa33c0388f7648df8461e7e792bcdcb3/glioblastoma\_gx.R](https://github.com/nerdBarby/Hackbio-cancer-internship/blob/8a10f564fa33c0388f7648df8461e7e792bcdcb3/glioblastoma_gx.R) 
 
 1- **Gene only-Heatmap**  
-![][image1]
+![1](https://github.com/user-attachments/assets/8fe753dc-3b59-4ddd-ab99-df0732542cff)
+
 
 * In this heatmap, we can see that genes with higher expression are represented by red color, while those with lower expression have a blue color and yellow color is given to genes with expressions near the mean.  
 * The dendrogram clusters the genes based on the similarity in their expression patterns.  
@@ -15,12 +16,14 @@ Github link: [https://github.com/nerdBarby/Hackbio-cancer-internship/blob/8a10f5
   
 2\. **Sample only-Heatmap**
 
-![][image2]  
+![2](https://github.com/user-attachments/assets/6b678e6c-ad4e-4c1f-a835-20a2f7aec989)
+ 
 This heatmap shows the hierarchical clustering of gene expression across different samples, indicated by the labels on the x-axis (e.g., TCGA sample IDs). The genes, represented by Ensembl gene IDs on the y-axis, are clustered based on their expression levels, with the color scale indicating Z-scores, where red represents downregulation, blue represents upregulation, and yellow represents moderate expression. The dendrogram above shows the similarity between samples, grouping those with similar expression profiles, and providing insights into potential biological patterns.
 
 3\. **Both genes and sample**
 
-![][image3]  
+![3](https://github.com/user-attachments/assets/9c399417-40b8-4124-89ff-27b8c97c7fd9)
+
 **Sample Clustering (Top Dendrogram)**.A few larger clusters contain multiple samples with similar gene expression patterns. Smaller branches suggest some samples exhibit unique gene expression profiles, possibly due to individualized tumour characteristics, mutations, or treatment responses.  
 **Gene Clustering (Left Dendrogram)**.Some gene clusters are tightly grouped, indicating strong co-expression across most samples.There are more dispersed clusters, showing that certain genes are variably expressed, likely correlating with specific patient conditions or glioblastoma subtypes.  
 **Highly Upregulated Genes (Blue)**: Several genes show strong upregulation (blue) in certain sample groups. These genes could be critical drivers of tumor growth.  
@@ -29,14 +32,16 @@ This heatmap shows the hierarchical clustering of gene expression across differe
 
 4\. **Sequential palette \-Heatmap**
 
-![][image4]  
+![4](https://github.com/user-attachments/assets/8e3301e1-5194-4e04-a447-e2e7478afe52)
+
 The above sequential heatmap shows a smooth change in gene expression from a higher to a lower movement. Moving from the right-hand side, areas covered in red show more expression of genes while the other side, demonstrates zones with low gene expression activity. The colour (red, orange, and yellow) was specifically used to show this activity's visual illustration, making it easier to understand.  
 
 Using a sequential colour palette helps to represent the magnitude of expression levels. This approach is useful for visualising the overall expression trend without emphasising directionality.
 
 5\. **Diverging \-Heatmap**
 
-![][image5]
+![5](https://github.com/user-attachments/assets/a14996ba-e93d-4c05-9901-008262d1edf0)
+
 
 This heatmap shows gene expression patterns in 2 groups. Group 1 displays elevated expression (Yellow) for specific genes, while Group 2 exhibits lower expression (in blue). This divergence indicates potential gene dysregulation in Glioblastoma.  
 Using a diverging colour palette helps to represent upregulated and downregulated genes effectively. This choice helps in clearly distinguishing between high and low expression levels.
@@ -48,7 +53,8 @@ After subsetting the upregulated and downregulated genes with p-value cutoff=0.0
 **Upregulated Pathways**
 
 The top Upregulated  3 pathways are **"Loop of Henle development", " Negative reg. of myoblast differentiation", "Adenylate cyclase-activating G protein-coupled receptor signalling pat"**  
-![][image6]
+![6](https://github.com/user-attachments/assets/1750079e-ef36-4377-a2e8-36bf5b8109a8)
+
 
 1. **Loop of Henle Development:** This pathway is crucial for the development of the Loop of Henle, a structure in the nephron of the kidney that plays a key role in concentrating urine and maintaining water and electrolyte balance\[1\]. Alterations in kidney-related pathways may reflect systemic changes in metabolism and homeostasis due to tumor presence or treatment effects.  
 2. **Negative Regulation of Myoblast Differentiation:** This pathway involves the inhibition of myoblast differentiation, which is essential for muscle development \[2\]. The upregulation of this pathway may indicate a mechanism by which tumour cells alter local tissue environments, potentially affecting muscle regeneration and repair processes.
@@ -62,7 +68,8 @@ The upregulation of these pathways suggests that glioblastoma may not only affec
 **Downregulated pathways**
 
 The top 3 down regulated pathways are **"Neutrophil chemotaxis", "Neutrophil migration","Endocrine system development"**  
-![][image7]
+![7](https://github.com/user-attachments/assets/6a37261e-61e6-41f7-8f34-c3339b2c97e3)
+
 
 1\. **Neutrophil Chemotaxis:** Neutrophil chemotaxis is the process by which neutrophils are directed to sites of infection or inflammation \[4\]. Downregulation of this pathway in glioblastoma may indicate an impaired immune response, potentially allowing the tumour to evade immune detection and promote tumour progression.   
 2\. **Neutrophil Migration:** This pathway involves in the movement of neutrophils from the bloodstream to tissues \[5\]. The downregulation of neutrophil migration suggests that glioblastoma may inhibit the recruitment of these immune cells, thereby weakening the body's ability to mount an effective immune response against the tumour.
