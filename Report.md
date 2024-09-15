@@ -5,28 +5,33 @@
 R Script Github link: [https://github.com/nerdBarby/Hackbio-cancer-internship/blob/8a10f564fa33c0388f7648df8461e7e792bcdcb3/glioblastoma\_gx.R](https://github.com/nerdBarby/Hackbio-cancer-internship/blob/8a10f564fa33c0388f7648df8461e7e792bcdcb3/glioblastoma_gx.R) 
 
 1- **Gene only-Heatmap**  
-![][image1]
+![1](https://github.com/user-attachments/assets/34f3fd20-2dc0-4f20-8fda-dfee6268cfca)
+
 
 The color coding effectively distinguishes gene expression levels, while the dendrogram organizes genes according to their expression similarities.
 
 2\. **Sample only-Heatmap**
 
-![][image2]  
+![2](https://github.com/user-attachments/assets/8b716ad9-4915-478b-ba64-4b506269f299)
+
 The heatmap effectively visualizes gene expression variations across samples, highlighting upregulated and downregulated genes while revealing underlying biological relationships.
 
 3\. **Both genes and sample**
 
-![][image3]  
+![3](https://github.com/user-attachments/assets/2e136e8f-65d5-45a7-8114-eee507201705)
+
  the sample and gene clustering patterns reveal insights into the heterogeneity of glioblastoma tumors and identify potential driver genes and pathways based on their expression levels across samples. 
 
 4\. **Sequential palette \-Heatmap**
 
-![][image4]  
+![5](https://github.com/user-attachments/assets/ee367841-5a25-4b79-8fca-347078c5eef5)
+
 The above sequential heatmap(degrees of red) helps to represent the magnitude of expression levels. Moving from the right-hand side, areas covered in red show more expression of genes while the other side, demonstrates zones with low gene expression activity. 
 
 5\. **Diverging \-Heatmap**
 
-![][image5]
+![4](https://github.com/user-attachments/assets/e1738616-169d-4e95-a85b-8cd0f998fd4f)
+
 
 This heatmap shows gene expression patterns in 2 groups. Group 1 displays elevated expression (Yellow) for specific genes, while Group 2 exhibits lower expression (in blue). This divergence indicates potential gene dysregulation in Glioblastoma.
 
@@ -38,7 +43,8 @@ and down-regulated genes and R to visualize these pathways.
 **Upregulated Pathways**
 
 The top Upregulated  3 pathways are **"Loop of Henle development", " Negative reg. of myoblast differentiation", "Adenylate cyclase-activating G protein-coupled receptor signalling pat"**  
-![][image6]
+![6](https://github.com/user-attachments/assets/67bc3cc4-2025-450d-8a7d-3e89eaeae485)
+
 
 1. **Loop of Henle Development:** This pathway is crucial for the development of the Loop of Henle, a structure in the nephron of the kidney that plays a key role in concentrating urine and maintaining water and electrolyte balance\[1\].   
 2. **Negative Regulation of Myoblast Differentiation:** This pathway involves the inhibition of myoblast differentiation, which is essential for muscle development \[2\].  
@@ -51,7 +57,8 @@ The upregulation of these pathways suggests that glioblastoma may not only affec
 **Downregulated pathways**
 
 The top 3 downregulated pathways are **"Neutrophil chemotaxis", "Neutrophil migration","Endocrine system development"**  
-![][image7]
+![7](https://github.com/user-attachments/assets/b9736f2b-8f8e-437a-a7e5-c7f63a50136b)
+
 
 1\. **Neutrophil Chemotaxis:** Neutrophil chemotaxis is the process by which neutrophils are directed to sites of infection or inflammation \[4\].  
 2\. **Neutrophil Migration:** This pathway involves in the movement of neutrophils from the bloodstream to tissues \[5\].  
